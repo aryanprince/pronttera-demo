@@ -4,7 +4,7 @@ function App() {
   const [count, setCount] = useState(1);
 
   return (
-    <div>
+    <div className="bg-black min-h-screen text-white">
       <h1>Pronttera Demo</h1>
 
       <button onClick={() => setCount((count) => count + 1)} className="border">
